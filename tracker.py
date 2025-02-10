@@ -13,10 +13,10 @@ st.write("👈 Swipe Left for Failure | Swipe Right for Success 👉")
 # Buttons to simulate swipe gestures
 col1, col2 = st.columns(2)
 with col1:
-    if st.button("❌ Swipe Left (Failure)"):
+    if st.button("❌ SL"):
         st.session_state.failure_count += 1
 with col2:
-    if st.button("✅ Swipe Right (Success)"):
+    if st.button("✅ TP"):
         st.session_state.success_count += 1
 
 # Display statistics
